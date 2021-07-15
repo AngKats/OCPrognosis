@@ -1,6 +1,6 @@
 # 2-year Prognosis in Advanced Stage High Grade Serous Ovarian Cancer: Selecting Features for ML-based Prognosis Prediction
 
-This repository contains the code used to run the experiments used in paper A. Laios et al., "2-year prognosis in advanced stage high grade serous ovarian cancer: Selecting features for ML-based prognosis prediction" submitted in Cancer Control.
+This repository contains the code used to run the experiments used in paper A. Laios et al., "2-year prognosis in advanced stage high grade serous ovarian cancer: Selecting features for ML-based prognosis prediction" submitted to Cancer Control.
 
 ## Requirements
 
