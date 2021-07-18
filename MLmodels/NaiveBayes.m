@@ -21,14 +21,14 @@ inputTable = array2table(trainingData, 'VariableNames', {'column_1', 'column_2',
 
 predictors = inputTable(:, predictorNames);
 response = inputTable.column_11;
-isCategoricalPredictor = [false, false, false, false, false];%, false, false];
+isCategoricalPredictor = logical(false*ones(1, length(predictorNames)));
 
 % Train a classifier
 % This code specifies all the classifier options and trains the classifier.
 
 % Expand the Distribution Names per predictor: Numerical predictors are assigned either Gaussian or Kernel distribution and categorical predictors are assigned mvmn distribution
 % Gaussian is replaced with Normal when passing to the fitcnb function
-distributionNames =  repmat({'Kernel'}, 1, length(isCategoricalPredictor));
+distributionNames =  repmat({'Kernel'}, 1, length(predictorNames));
 distributionNames(isCategoricalPredictor) = {'mvmn'};
 
 if any(strcmp(distributionNames,'Kernel'))
