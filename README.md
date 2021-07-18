@@ -11,7 +11,10 @@ This repository contains the code used to run the experiments used in paper A. L
 
 1. Clone the repository
 2. Open Matlab
-3. Run the "run_all.m" file
+3. For the Feature ranking: 
+    - Run the FeatureRanking.m script file to execute the chi-squared and the MRMR methods;
+    - Run the FeatureSelection_RegularizationMethods.m script to execute the Lasso and Elastic Nets Methods.
+4. For the ML prognosis prediction models, run the run_allMLmodels.m script. 
 
   
 ## How to reference this software:
@@ -22,5 +25,5 @@ We would be grateful if the following works are cited in case of any publication
 
 
 
-## Acknowledgements
-We acknowledge that part of this work was funded by the ???
+[//]: ## Acknowledgements
+[//]: We acknowledge that part of this work was funded by the ???
