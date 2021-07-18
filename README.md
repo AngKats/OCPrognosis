@@ -23,7 +23,3 @@ We would be grateful if the following works are cited in case of any publication
 
 - Laios A, Katsenou A, Tan Y, et al 332 Two-year prognosis estimation of advanced high grade serous ovarian cancer patients using machine learning International Journal of Gynecologic Cancer 2020;30:A67-A68.
 
-
-
-[//]: ## Acknowledgements
-[//]: We acknowledge that part of this work was funded by the ???
